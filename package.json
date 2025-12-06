@@ -2,6 +2,7 @@
   "name": "Quest Knight - Todo Demo",
   "description": "This project was built with BMAD v4 interactions for demonstration purposes.",
   "private": true,
+  "license": "MIT",
   "version": "1.0.0",
   "type": "module",
   "scripts": {

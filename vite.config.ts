@@ -4,6 +4,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: process.env.GITHUB_PAGES === 'true' ? '/quest-knight-todo-demo/' : '/',
   plugins: [react()],
   resolve: {
     alias: {

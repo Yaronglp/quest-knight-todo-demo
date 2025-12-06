@@ -202,7 +202,7 @@ const parseBoldText = (text: string) => {
 };
 
 export const DocumentationPreview: React.FC = () => {
-  const [isVisible, setIsVisible] = React.useState(true);
+  const [isVisible, setIsVisible] = React.useState(false);
   const [activeDoc, setActiveDoc] = React.useState<DocumentType>('brief');
   const [isMinimized, setIsMinimized] = React.useState(false);
 
